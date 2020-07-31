@@ -14,6 +14,7 @@
 --section-color:#f5f4fa;
 --icon-color:#AFB1B8;
 --portfolio-color:rgba(33, 150, 243, 0.9);
+--portfolio-border-color: #ECECEC;
 }
 
  /*глобальный border-box*/
@@ -104,6 +105,30 @@ span{color:var(--logo-color);}
   flex-direction: row;
   margin-left:85px;
 }
+
+.menu-item{
+  position: relative;
+}
+
+.menu-item::after{
+  position: relative;
+  display:block;
+  content:"";
+  width:100%;
+  height:4px;
+  background-color: transparent;
+  border-radius: 2px;
+  top:30px;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu-item:hover::after{
+  background-color: var(--accent-color);
+}
+
+
 
 /* index header*/
 .menu-item-link, 
@@ -615,6 +640,7 @@ margin:10px;
 
 /*ПОРТФОЛИО*/
 .portfolio{
+  border-top: 1px solid var(--portfolio-border-color);
   padding-top:93px;
   padding-bottom: 94px;
 }
