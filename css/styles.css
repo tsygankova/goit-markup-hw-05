@@ -116,7 +116,7 @@ span{color:var(--logo-color);}
 .menu-item-link{
   color: var(--title-light-theme-color);
   transition-property: color;
-  transition-duration: 1000ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -137,7 +137,7 @@ span{color:var(--logo-color);}
   fill:var(--text-main-color);
   margin-right:10px;
   transition-property: fill;
-  transition-duration: 1000ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -154,7 +154,7 @@ fill:var(--accent-color)
   align-items: center;
   color: var(--text-main-color);
   transition-property: color;
-  transition-duration: 1000ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -402,7 +402,7 @@ fill:var(--accent-color)
   border-radius: 50%;
   background-color: transparent;
   transition-property: background-color;
-  transition-duration: 1000ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -415,7 +415,7 @@ margin-right:0px;
   height: 20px;
   fill: var(--icon-color);
   transition-property: fill;
-  transition-duration: 1000ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -448,7 +448,7 @@ margin-right:0px;
   justify-content: center;
   align-items: center;
   transition-property: border-color;
-  transition-duration: 1000ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -459,7 +459,7 @@ margin-right:0px;
 .client-logo{
   fill:var(--icon-color);
   transition-property: fill;
-  transition-duration: 1000ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 
@@ -513,7 +513,7 @@ margin-right:0px;
   line-height: 1.71;
   color: var(--footer-links-color);
   transition-property: color;
-  transition-duration: 1000ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -561,7 +561,7 @@ margin-right:0px;
   justify-content: center;
   align-items: center;
   transition-property: background-color;
-  transition-duration: 1000ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -570,7 +570,7 @@ margin-right:0px;
   height:20px;
   fill: var(--title-dark-theme-color);
   transition-property: fill;
-  transition-duration: 1000ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -639,7 +639,7 @@ margin:10px;
   border-radius:4px;
   background-color: var(--section-color);
   transition-property: color, background-color;
-  transition-duration: 1000ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -684,7 +684,7 @@ margin-bottom:0px;
   position: relative;
   box-shadow: none;
   transition-property: box-shadow;
-  transition-duration: 1000ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -720,9 +720,9 @@ margin-bottom:0px;
   color: var(--text-main-color);
   text-align: left;
   transition-property: color, background-color;
-  transition-duration: 1000ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}}
+}
   
 
 .portfolio-item-hover-text:hover{
