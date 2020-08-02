@@ -716,6 +716,35 @@ margin-bottom:0px;
   overflow: hidden;
 }
 
+.portfolio-container:hover{
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
+}
+
+.portfolio-item-hover-text{
+  font-size: 18px;
+  line-height: 1.56;
+  color:var(--hover-buttons-text);
+  background-color: var(--portfolio-color);
+  text-align: left;
+  position: absolute;
+  transform: none;
+  width: 100%;
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-top: 65px;
+  padding-bottom: 70px;
+  transition-property: transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+  
+/*
+.portfolio-container:hover .portfolio-item-hover-text{
+  top: 35%;
+  left:0%;
+  transform: translateY(-50%);
+}*/
+
 
 .portfolio-item-title{
   padding-left:24px;
@@ -739,38 +768,4 @@ margin-bottom:0px;
   text-align: left;
 }
 
-/*
-.portfolio-item:hover, .portfolio-item.focus{
-  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
-}*/
-
-.portfolio-item-hover-text{
-  font-size: 18px;
-  line-height: 1.56;
-  color:var(--hover-buttons-text);
-  background-color: var(--portfolio-color);
-  text-align: left;
-  position: absolute;
-  transform: none;
-  width: 370px;
-  padding-right: 24px;
-  padding-left: 24px;
-  padding-top: 65px;
-  padding-bottom: 70px;
-  transition-property: transform;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-  
-
-.portfolio-container:hover .portfolio-item-hover-text{
-  position: absolute;
-  top: 35%;
-  left:0%;
-  transform: translateY(-50%);
-}
-
-.portfolio-container:hover{
-  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
-}
 
